@@ -1,0 +1,54 @@
+/* Status Badge Styles */
+.pointer {
+  cursor: pointer;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+}
+
+.status-badge:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.to-do {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.in-progress {
+  background-color: #0dcaf0;
+  color: #fff;
+}
+
+.done {
+  background-color: #198754;
+  color: #fff;
+}
+
+/* Priority Badge Styles */
+.priority-badge {
+  padding: 4px 8px;
+  border-radius: 15px;
+  font-size: 0.8em;
+}
+
+/* Table Styles */
+.table td {
+  vertical-align: middle;
+}
+
+/* Animation for status changes */
+.status-badge {
+  transition: background-color 0.3s ease;
+}
+
+/* Optional: Hover effects for buttons */
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} 
