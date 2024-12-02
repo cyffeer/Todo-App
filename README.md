@@ -1,4 +1,4 @@
-# modal-project
+# todo app
 
 ## Project setup
 ```
